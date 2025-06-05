@@ -1,1 +1,0 @@
-# lgc-gn.github.io
