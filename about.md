@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: lgc-gn | About
 ---
 
 ## About Me
