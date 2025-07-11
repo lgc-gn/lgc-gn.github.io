@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="icon" href="/assets/images/siteicon.ico" type="image/x-icon" />
-</head>
-<body>
-  {% include header.html %}
-  <main>
-    {{ content }}
-  </main>
-  {% include footer.html %}
-</body>
+  <html>
+
+    <head>
+      <meta charset="UTF-8">
+      <title>{{ page.title }}</title>
+      <link rel="stylesheet" href="/assets/css/style.css">
+      <link rel="icon" href="/assets/images/site/favicon.ico" type="image/x-icon" />
+    </head>
+
+    <body>
+      {% include header.html %}
+        <main>
+          {{ content }}
+        </main>
+      {% include footer.html %}
+    </body>
 </html>
