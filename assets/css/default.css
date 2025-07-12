@@ -5,10 +5,19 @@ body {
   padding: 2rem;
   line-height: 1.6;
 }
-header, footer {
+
+header {
   text-align: center;
   margin-bottom: 2rem;
 }
-nav a {
-  margin: 0 0.5rem;
+
+footer {
+  text-align: center;
+  margin-bottom: 2rem;
 }
+
+.header-nav{
+  margin: 0 0.5rem;
+  font-weight: bold;
+}
+
