@@ -4,39 +4,29 @@ title: lgc-gn | ARA
 ---
 
 <head>
-    <link rel="ara-home" href="/assets/images/ara/ara-homepage.webp">
-    <link rel="ara-filsetup" href="/assets/images/ara/ara-filesetup.webp">
-    <link rel="ara-serversetup" href="/assets/images/ara/ara-serversetup.webp">
-    <link rel="ara-usage" href="/assets/images/ara/ara-usage.webp">
 
-    <style>
-        .testDiv{
-            border: 5px outset white;
-            background-color: rgb(52, 49, 49);
-            text-align: center;
-        }
-
-        .center{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-        }
-    </style>
+    <link rel="stylesheet" href="/assets/css/project-style.css">
 
 </head>
 
 <body>
     <main>
-        <h1>The Active Reading Assistant (ARA)</h1>
+        <h1>Active Reading Assistant (ARA)</h1>
         <a href="https://github.com/lucyach/cs422-ara" target="_blank">GitHub Repo</a>
 
-        <div>
-            <img src="/assets/images/ara/ara-homepage.webp"
-            alt = "ARA Homepage"
-            class="center">
-            
+        <div class="carousel">
+        <div class="carousel-track">
+            <img src="/assets/images/ara/ara-homepage.webp" alt="ARA Homepage">
+            <img src="/assets/images/ara/ara-filesetup.webp" alt="ARA File Setup">
+            <img src="/assets/images/ara/ara-serversetup.webp" alt="ARA Server Setup">
+            <img src="/assets/images/ara/ara-usage.webp" alt="ARA Usage">
         </div>
+            <button class="prev">&#10094;</button>
+
+            <button class="next">&#10095;</button>
+        </div>
+
+
 
         <div class="testDiv">
 
@@ -50,4 +40,6 @@ title: lgc-gn | ARA
 
         </div>
     </main>
+
+    <script src="/assets/scripts/image-slider.js"></script>
 </body>
