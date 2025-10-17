@@ -3,6 +3,7 @@
   width: 640px;       /* Bigger width */
   height: 400px;      /* Bigger height */
   overflow: hidden;
+
 }
 
 .carousel-track {
@@ -13,8 +14,8 @@
 }
 
 .carousel img {
-  width: 640px;       /* Match carousel width */
-  height: 400px;      /* Match carousel height */
+  width: 640px;
+  height: 400px;
   object-fit: cover;
   flex-shrink: 0;
 }
