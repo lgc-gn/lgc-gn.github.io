@@ -2,7 +2,14 @@ title: lgc-gn
 description: Portfolio and project showcase
 baseurl: ""
 url: "https://lgc-gn.github.io"
-remote_theme: pages-themes/architect@v0.2.0
+
+remote_theme: jekyll/minima
+minima:
+  skin: dark
+
 plugins:
-  - jekyll-remote-theme
-  - jekyll-livereload
+  - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - about.html

@@ -1,7 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'github-pages', group: :jekyll_plugins
+gem "jekyll", "~> 4.3"
+gem "minima", github: "jekyll/minima", branch: "master"
+
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+end
+
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
-gem 'jekyll-livereload', group: :jekyll_plugins
-gem 'webrick'
-gem 'fiddle'
+gem "jekyll-remote-theme"
