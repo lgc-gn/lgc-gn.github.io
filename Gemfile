@@ -23,3 +23,10 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "jekyll-remote-theme"
+
+
+analytics:
+provider: "google-gtag"
+google:
+  tracking_id: "G-6C67Z4H2EL"
+  anonymize_ip: false # default  
