@@ -1,4 +1,4 @@
-# Chirpy Starter
+# lgc-gn.github.io
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
 
