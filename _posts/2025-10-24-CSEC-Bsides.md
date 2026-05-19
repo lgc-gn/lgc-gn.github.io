@@ -6,4 +6,4 @@ tags: [extracurricular, cybersecurity]     # TAG names should always be lowercas
 media_subpath: /assets/img/projects/bsides/
 ---
 
-![Image description](bsideswin.jpg){: lqip="/path/to/lqip-file" }
+<!-- ![Image description](bsideswin.jpg){: lqip="/path/to/lqip-file" } -->
