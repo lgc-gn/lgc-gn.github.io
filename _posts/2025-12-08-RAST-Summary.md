@@ -18,7 +18,7 @@ media_subpath: /assets/vid/projects/rasterizer/
 
 ## Final Version
 
-In its final version, I used my software rasterizer to render 1,000 frames of a model of a brain region during an aneurism. These frames were then compiled into an mp4 with ffmpeg into the video seen below
+In its final version, I used my software rasterizer to render 1,000 frames of a model of a brain region during an aneurysm. These frames were then compiled into an mp4 with ffmpeg into the video seen below
 
 {% include embed/video.html
     src='demo.mp4'
