@@ -81,7 +81,6 @@ static inline glm::vec3 ClosestPointOnTriangle(const glm::vec3& p,
 {%
   include embed/video.html
   src='inizioAnimations.webm'
-  types='ogg|mov'
   title='Demo video'
   autoplay=false
   loop=true
