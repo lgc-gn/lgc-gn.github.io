@@ -5,7 +5,7 @@ categories: [Past Projects, Untitled Tactics Game]
 tags: [gamedev, unity, csharp]
 description: A team game project with tactical turn-based elements 
 media_subpath: /assets/img/projects/410game/
-
+image: FreeCam.png
 ---
 
 This project was for my junior year course Intro to Game Development, in which I led a team of four in creating game in the Unity Engine inspired by the likes of Baldur's Gate 3 and Final Fantasy Tactics.
