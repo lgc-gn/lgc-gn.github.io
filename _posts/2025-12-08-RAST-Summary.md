@@ -6,7 +6,7 @@ tags: [cpp]
 math: true
 description: A software rasterizer built from scratch in C++
 media_subpath: /assets/img/projects/rasterizer/
-image: Rast1D.png
+image: rast1D.png
 ---
 
 ## Starting Out
