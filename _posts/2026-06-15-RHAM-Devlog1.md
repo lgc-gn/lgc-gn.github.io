@@ -5,7 +5,7 @@ categories: [Current Projects, Rhamnusia]
 tags: [gamedev, unity, csharp]
 description: Refactoring old code, developing advanced movement systems
 media_subpath: /assets/img/projects/rhamnusia/
-image: rhamNewMovement.png
+image: devlog1/rhamNewMovement.png
 ---
 
 ## Overview
@@ -24,12 +24,12 @@ This time around, I really wanted to expand upon my basic movement systems. I wa
 
 ### Wallrunning
 
-![Wallrun Demo Gif](rhamWallRunDemo.gif){: width="600" height="600" }
+![Wallrun Demo Gif](devlog1/rhamWallRunDemo.gif){: width="600" height="600" }
 _Wallrun Demo_
 
 When the player is airborne and moving alongisde a near-vertical wall, a sideways raycast picks it up and drops them into a wall-run. From there the state takes over the player's motion through that raw movement path, projecting their velocity along the wall's tanget and applying gentler gravity to allow the player to move a long it, and adds a little inward force to keep the player pinned against the surface of the wall. A subtle camera roll kicks in as well to signify the player's wall-running state. Optionally, the player can jump off the wall and carry momentum forward.
 
-![Darksider's 2 Reference Gif](rhamWallRunReference.gif){: width="600" height="600" }
+![Darksider's 2 Reference Gif](devlog1/rhamWallRunReference.gif){: width="600" height="600" }
 _Darksiders 2's wallrunning system served as inspiration_
 
 It also tracks which side the wall is on and feeds that to the player's animator, so left and right wall-runs can play their corresponding animations.
@@ -38,7 +38,7 @@ It also tracks which side the wall is on and feeds that to the player's animator
 
 Ledge grabbing comes down to two raycasts working together, with one firing forward to find a valid wall in front of the player, and another downwards just past its top edge to confirm there's actually a standable surface within reach. If both are valid, then the player snaps into a hang.
 
-![Ledge Grab/Mantle Demo Gif](rhamLedgeGrabMantleDemo.gif){: width="600" height="600" }
+![Ledge Grab/Mantle Demo Gif](devlog1/rhamLedgeGrabMantleDemo.gif){: width="600" height="600" }
 _Ledge Grab/Mantle Demo_
 
 From there, the player can push up to a mantle where the model climbs up and over onto the ledge along a scripted path, or drop back off into the air. The system still needs a little improvement however, as the player's model doesn't seem to perfectly grab the ledge visually.
@@ -47,7 +47,7 @@ From there, the player can push up to a mantle where the model climbs up and ove
 
 Walljumping was the last mechanic I built for this new advanced movement system. Jumping into a wall perpendicularly and inputting another jump while in contact, kicks the player off it for a burst of vertical height. It'
 
-![Walljump Demo Gif](rhamWalljumpDemo.gif){: width="600" height="600" }
+![Walljump Demo Gif](devlog1/rhamWalljumpDemo.gif){: width="600" height="600" }
 _Walljump Demo_
 
 All these systems tie in together nicely, and will absolutely be played around when I get to creating environments.

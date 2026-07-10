@@ -5,7 +5,7 @@ categories: [Current Projects, Rhamnusia]
 tags: [gamedev, unity, csharp]
 description: Remaking combat and enemy AI systems
 media_subpath: /assets/img/projects/rhamnusia/
-image: rhamEnemyAI.png
+image: devlog2/rhamEnemyAI.png
 ---
 
 ## Overview
@@ -40,7 +40,7 @@ Now that I felt good in the player's side of things, enemies were the next focus
 
 ### Improving Enemy Player Detection
 
-![Enemy AI Demo](rhamEnemyAIDemo.gif){: width="600" height="600" }
+![Enemy AI Demo](devlog2/rhamEnemyAIDemo.gif){: width="600" height="600" }
 _Basic human enemy patrolling between 2 points_
 
 My old detection system functioned off a single raycast and distance change, while it worked, it was seriously rudimentary and unintuitive. As it being a single line meaning that the player could be in what should be the enemy's field of view but isn't detected at all until they cross that single raycast. The alternative I added was a vision cone, with the player needing to be in that cone's arc and in clear line of sight before it reacts.
