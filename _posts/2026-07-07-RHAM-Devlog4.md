@@ -16,7 +16,7 @@ Switching away from the full Blender and Clip Studio art focus of last week, thi
 
 As per the previous devlog, I've rigged and imported my custom player model to my game, to mixed results:
 
-![rham model old](devlog4/rhamRigShowcase.png){: width="500" height="500" }P
+![rham model old](devlog4/rhamRigShowcase.png){: width="500" height="500" }
 
 For now it functions and I'll focus on that more later when the overall structure of the game is more defined.
 
