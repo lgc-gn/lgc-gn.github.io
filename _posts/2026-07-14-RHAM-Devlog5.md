@@ -17,24 +17,28 @@ A lot of great progress for this devlog, pratically meeting all the things I've 
 ### Title Screen
 
 ![rham main menu](devlog5/rhamMainMenu.png){: width="600" height="500" }
+_Simple title screen. New, load, and exit game have full functionality_
 
 This project now opens like a game. The main menu is built on the same screen framework from the previous devlog. New Game walks through picking one of the starter classes, naming your character, and choosing which slot to save to (with an overwrite warning if that slot is occupied). Load lists all save files saved to the disk and fills the relevant information of the character's name, level, and save timestamp. 
 
 ### Skill Screen
 
 ![rham skill tree](devlog5/rhamSkillTree.png){: width="600" height="500" }
+_Modular branching skill tree, learnable nodes denoted with a faint gold outline_
 
 Last week's goal has been fully realized with the new skill tree system. Overall, how the system works now is each class has **skill categories**, **trees**, and **nodes**. Categories describing a broad type of skill, so for the Mercenary class (formerly Swordsman) they have *Greatweapons*, *Arts of War*, and *Weapon & Shield*. **Skill Trees** are made up of **skill nodes**, and describe the subcategories of the main category, so for Mercenary they have a *Greatsword* tree with various nodes for that weapon type. **Nodes** are interconnected with branches that signify pre-requisites.
 
 Obviously to be adjusted later, but I do like this layout so far as it allows me to distinguish combat focused skill categories from other types that may involve more utility or passive bonuses. Allowing for more player control in how they want to build their character.
 
 ![rham skill loadout](devlog5/rhamSkillLoadout.png){: width="600" height="500" }
+_Character menu now has a skill loadout page, showing the player's learned skills_
 
 The skill tree tab in the player's menu has been repurposed to a "skills loadout" screen, where the player can view their learned skills and slot them into their skill slots as they deem fit. As this screen can only be used to equip skills, there is also a button that allows the player to view their classes' entire skill tree if they want.
 
 ### Interaction Popups
 
 ![rham environment](devlog5/rhamItemPickup.png){: width="600" height="500" }
+_"Greatsword" item pickup marked by a simple particle effect_
 
 I've introduced a small interaction prompt on the player's HUD fading in for anything interactable (picking up items, meditation points, NPC interaction TBA). I've also been experiementing with the particle system to give the items a noticable effect that they can be picked up.
 
